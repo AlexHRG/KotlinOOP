@@ -4,9 +4,9 @@ fun main(args: Array<String>) {
 
     println(pointC)
 
-    //val pointA = Point(1.0, 2.0)
+    val pointA = Point(1.0, 2.0)
     //val pointB = Point(2.0, 2.5)
-    //println(pointA)
+    println(pointA)
 
     println(pointC.equals(pointD))
     //pointB.x = 1.0

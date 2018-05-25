@@ -9,7 +9,7 @@ class ColorPoint : Point {
     enum class Colors {RED, GREEN, BLUE, YELLOW, WHITE, BLACK, GREY}
 
     override fun toString(): String {
-        return "Color${super.toString()}, color=${color}"
+        return "${super.toString()}, color=${color}"
     }
 
     override fun equals(other: Any?): Boolean {

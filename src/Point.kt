@@ -3,7 +3,7 @@ import kotlin.math.sqrt
 
 open class Point(var x : Double = 0.0, var y : Double = 0.0) {
 
-    override fun toString(): String = "Point x=${x}, y=${y}"
+    override fun toString(): String = "${this.javaClass.simpleName} x=${x}, y=${y}"
 
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
